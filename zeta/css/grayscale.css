@@ -165,9 +165,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    text-shadow: 0 0 40px black;    
+    text-shadow: 0 0 240px black;    
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -285,7 +285,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 15px black;
     background: url(../img/medienarbeit_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -298,7 +298,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 30px black;
     background: url(../img/lektorat_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -311,7 +311,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 15px black;
     background: url(../img/textservice_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -324,7 +324,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 15px black;
     background: url(../img/preise_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -337,7 +337,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    text-shadow: 0 0 70px black;
+    text-shadow: 0 0 60px black;
     background: url(../img/kontakt_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -350,6 +350,7 @@ a:focus {
     width: 100%;
     padding: 25px 0;
     color: #fff;
+    text-shadow: 0 0 60px black;    
     background: url(../img/copyright_s.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
