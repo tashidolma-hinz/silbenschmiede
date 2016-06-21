@@ -165,7 +165,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    text-shadow: 0 0 240px black;    
+    text-shadow: 0 0 60px #7f727e;    
     color: #fff;
     background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: #fff;
