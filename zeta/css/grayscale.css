@@ -134,7 +134,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(0,55,255,0.2);
+    background-color: #e0dadf;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -167,7 +167,7 @@ a:focus {
     text-align: center;
     text-shadow: 0 0 60px #7f727e;    
     color: #fff;
-    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -286,7 +286,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: 0 0 15px black;
-    background: url(../img/medienarbeit_s.jpg) no-repeat center center scroll;
+    background: url(../img/medienarbeit.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -299,7 +299,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: 0 0 30px black;
-    background: url(../img/lektorat_s.jpg) no-repeat center center scroll;
+    background: url(../img/lektorat.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -312,7 +312,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: 0 0 15px black;
-    background: url(../img/textservice_s.jpg) no-repeat center center scroll;
+    background: url(../img/textservice.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -325,7 +325,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: 0 0 15px black;
-    background: url(../img/preise_s.jpg) no-repeat center center scroll;
+    background: url(../img/preise.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -338,7 +338,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: 0 0 60px black;
-    background: url(../img/kontakt_s.jpg) no-repeat center center scroll;
+    background: url(../img/kontakt.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -348,10 +348,11 @@ a:focus {
 
 .footer-section {
     width: 100%;
-    padding: 25px 0;
+    padding: 50px 0;
+    padding-bottom: 25px;
     color: #fff;
     text-shadow: 0 0 60px black;    
-    background: url(../img/copyright_s.jpg) no-repeat center center scroll;
+    background: url(../img/footer.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -385,7 +386,7 @@ a:focus {
     }
     
     .footer-section {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 }
 
@@ -437,6 +438,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    padding-bottom: 0;
 }
 
 footer p {
