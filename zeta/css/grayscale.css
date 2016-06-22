@@ -333,6 +333,19 @@ a:focus {
     -o-background-size: cover;
 }
 
+.person-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-shadow: 0 0 15px black;
+    background: url(../img/person.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .kontakt-section {
     width: 100%;
     padding: 50px 0;
@@ -378,6 +391,10 @@ a:focus {
     }
 
     .preise-section {
+        padding: 100px 0;
+    }
+
+    .person-section {
         padding: 100px 0;
     }
 
