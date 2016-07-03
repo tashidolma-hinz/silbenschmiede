@@ -500,12 +500,12 @@ body {
 .manualtable-1 {
     text-align: left;
     font-size: 17px;
-    line-height: 2;
+    line-height: 2px;
     width: 500px;
 }
 
-.manualtable-1>tbody>tr:hover {
-	background-color: rgba(0,5,255,.1);
+.manualtable-1 > tbody > tr:hover {
+    background-color: rgba(0,5,255,.1);
 }
 
 .manualtable-1 > tbody > tr > td {
@@ -514,8 +514,16 @@ body {
 }
 
 .manualtable-1 > tbody > tr > td.rowsplitter {
-    border-top: 0px; 
+    border-top: 0; 
     border-bottom: 1px solid rgba(0,0,0,1.0);
+}
+
+.manualtable-1-nolines > tbody > tr > td {
+    border-bottom: 0 !important;
+}
+
+.manualtable-1-nolines > tbody > tr:hover {
+    background-color: rgba(0,5,255,0) !important;
 }
 
 .manualrow-1 {
