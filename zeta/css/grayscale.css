@@ -491,17 +491,37 @@ body {
 }
 
 .manuallist-1 {
-    font-size: 17px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 2em;
     list-style-type: none;
     padding-left:0;
 }
 
+@media(min-width:768px) {
+    .manuallist-1 {
+        font-size: 17px;
+        line-height: 2em;
+        list-style-type: none;
+        padding-left:0;
+    }
+
+}
+
 .manualtable-1 {
     text-align: left;
-    font-size: 17px;
-    line-height: 2px;
+    font-size: 16px;
+    line-height: 2em;
     width: 500px;
+}
+
+@media(min-width:768px) {
+    .manualtable-1 {
+        text-align: left;
+        font-size: 17px;
+        line-height: 2em;
+        width: 500px;
+    }
+
 }
 
 .manualtable-1 > tbody > tr:hover {
@@ -532,9 +552,18 @@ body {
 
 .manualtable-2 {
     text-align: left;
-    font-size: 17px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 2em;
     width: 500px;
+}
+
+@media(min-width:768px) {
+    .manualtable-2 {
+        text-align: left;
+        font-size: 17px;
+        line-height: 2em;
+        width: 500px;
+    }
 }
 
 .manualtable-2 > tbody > tr > td {
